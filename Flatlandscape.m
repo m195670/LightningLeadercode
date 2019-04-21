@@ -1,5 +1,6 @@
 
 function [Probabilities, ExpectedValue, Variance] = Flatlandscape(H)
+%Function to calculate the Probability, Expected Value, and Variance of a one dimensional lightning leader with a height of H
 Probabilities = ones(1,H);
 %This initializes the vector associated with the probability values.
 E = ones(1,H);
